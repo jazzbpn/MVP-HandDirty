@@ -6,7 +6,7 @@ package com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.model;
 
 public class User {
 
-    private String fullName, email;
+    private String fullName = "", email = "";
 
     public User() {
     }
@@ -34,6 +34,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "FullName : " + fullName + "\nEmail : " + email;
+        return "Email : " + email + "\nFullName : " + fullName;
     }
 }

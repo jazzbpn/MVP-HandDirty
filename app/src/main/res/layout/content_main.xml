@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="@dimen/fab_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.MainActivity"
+    tools:context="com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.view.MainActivity"
     tools:showIn="@layout/activity_main">
 
 
