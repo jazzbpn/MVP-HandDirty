@@ -8,8 +8,8 @@ import com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.model.User;
 
 public class MainActivityPresenter {
 
-    User user;
-    View view;
+    private User user;
+    private View view;
 
     public MainActivityPresenter(View view) {
         this.user = new User();

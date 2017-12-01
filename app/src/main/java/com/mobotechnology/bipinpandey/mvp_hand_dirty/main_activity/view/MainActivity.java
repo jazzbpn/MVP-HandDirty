@@ -1,4 +1,4 @@
-package com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity;
+package com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,10 +14,7 @@ import com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.presenter.Mai
 public class MainActivity extends AppCompatActivity implements MainActivityPresenter.View {
 
     private MainActivityPresenter presenter;
-
     private TextView myTextView;
-    private EditText userName;
-    private EditText email;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +25,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityPrese
 
         presenter = new MainActivityPresenter(this);
         myTextView = findViewById(R.id.myTextView);
-        userName = findViewById(R.id.username);
-        email = findViewById(R.id.email);
+        EditText userName = findViewById(R.id.username);
+        EditText email = findViewById(R.id.email);
 
         userName.addTextChangedListener(new TextWatcher() {
             @Override

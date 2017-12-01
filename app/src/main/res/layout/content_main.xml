@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="50dp"
+        android:textSize="20sp"
         android:text="@string/app_name"
         android:gravity="center"/>
 
